@@ -81,7 +81,7 @@ public class Tareas {
         }
 
 
-        int idTarea = JOptionPane.showConfirmDialog(null, comboBox, "Selecciona las tareas PARA ELIMINAR",
+        int idTarea = JOptionPane.showConfirmDialog(null, comboBox, "Selecciona una tarea PARA CAMBIAR estado",
                 JOptionPane.OK_CANCEL_OPTION, 0);
         if (idTarea != JOptionPane.OK_OPTION) return;
 
